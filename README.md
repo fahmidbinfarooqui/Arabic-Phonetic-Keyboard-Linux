@@ -1,6 +1,9 @@
 # Arabic-Phonetic-Keyboard-Linux
 
-
+## One-liner
+```
+git clone https://github.com/fahmidbinfarooqui/Arabic-Phonetic-Keyboard-Linux && cd Arabic-Phonetic-Keyboard-Linux && sudo mv /usr/share/X11/xkb/symbols/ara{,_backup} && sudo mv ara /usr/share/X11/xkb/symbols/
+```
 This is a quickly put together Arabic phonetic keyboard based off Omar al-Zabir:
 
 http://arabic.omaralzabir.com/home
