@@ -1,13 +1,19 @@
 # Arabic-Phonetic-Keyboard-Linux
 
 ## One-liner
+**First of all you need to install `git` to clone this repository**
+
+Arch-based Systems: `sudo pacman -S git`
+
+Fedora-based Systems: `sudo dnf install git`
+
+Ubuntu and Debian-based Systems: `sudo apt install git`
 ```
 git clone https://github.com/fahmidbinfarooqui/Arabic-Phonetic-Keyboard-Linux && cd Arabic-Phonetic-Keyboard-Linux && sudo mv /usr/share/X11/xkb/symbols/ara{,_backup} && sudo mv ara /usr/share/X11/xkb/symbols/ && cd .. && rm -rf Arabic-Phonetic-Keyboard-Linux
 ```
-This is a quickly put together Arabic phonetic keyboard based off Omar al-Zabir:
+This is a quickly put together Arabic phonetic keyboard based on Omar al-Zabir: http://arabic.omaralzabir.com/home. Special thanks to [@hydroEng](https://github.com/hydroEng/) for doing this.
 
-http://arabic.omaralzabir.com/home
-
+<!--
 I'm not a programmer, I don't know how to use Github, I'm just here to put my project up for other people to use if they need to.
 
 Note: this keyboard doesn't have third level keys (AltGr). I may add it in the future, I never use them personally. If you want this feature added please let me know. And don't forget to report any issues or mistakes!
@@ -45,4 +51,5 @@ Good luck!
 
 PS. Yes, it's possible to make a separate new layout based on this but 
 I am too lazy, and I replaced my qwerty layout.
+-->
 
